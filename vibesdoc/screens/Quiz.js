@@ -14,7 +14,7 @@ export default ({ navigation }) => (
     <Text style={styles.titleText2}>Vibesdoc</Text>
     <StatusBar barStyle="dark-content" />
     <RowItem
-      name="Questionnare"
+      name="TakQuestionnare"
       color="#fff"
       onPress={() =>
         navigation.navigate("Quiz", {
