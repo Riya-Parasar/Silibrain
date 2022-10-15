@@ -1,21 +1,21 @@
 const questions = [
   {
     question:
-      "In the Roy Rogers -Dale Evans Museum, you will find Roy and Dales stuffed horses. Roy's horse was named Trigger, which was Dales horse?",
+      "title1",
     answers: [
-      { id: "1", text: "Buttermilk", correct: true },
-      { id: "2", text: "Daisy" },
-      { id: "3", text: "Scout" },
-      { id: "4", text: "Tulip" }
+      { id: "1", text: "1"},
+      { id: "2", text: "2" },
+      { id: "3", text: "3" },
+      { id: "4", text: "4" }
     ]
   },
   {
-    question: 'What weapon has become known as "the gun that won the west"?',
+    question: 'title2',
     answers: [
-      { id: "1", text: "Smith & Wesson Revolver" },
-      { id: "2", text: "Colt Peacemaker", correct: true },
-      { id: "3", text: "Winchester Revolver" },
-      { id: "4", text: "Sharps Derringer" }
+      { id: "1", text: "1" },
+      { id: "2", text: "2"},
+      { id: "3", text: "3" },
+      { id: "4", text: "4" }
     ]
   }
 ];

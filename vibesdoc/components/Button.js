@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     marginTop: 20
   },
   text: {
-    color: "#fff",
+   // color: "transparent",
     fontSize: 20,
     textAlign: "center"
   },

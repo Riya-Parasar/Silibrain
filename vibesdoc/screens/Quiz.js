@@ -10,10 +10,6 @@ import { RowItem } from "../components/RowItem";
 
 export default ({ navigation }) => (
   <ScrollView style={styles.container}>
-    <LinearGradient
-          colors={['#963dbe', '#776ff5' ]}
-          style={styles.container}
-        >
     <Text style={styles.titleText}>Welcome to</Text>
     <Text style={styles.titleText2}>Vibesdoc</Text>
     <StatusBar barStyle="dark-content" />
@@ -47,14 +43,13 @@ export default ({ navigation }) => (
         })
       }
     />
-    </LinearGradient>
   </ScrollView>
 );
 
 const styles = StyleSheet.create({
   container: {
     width:"100%",
-    height:"100%"
+    backgroundColor:"#8e45c8",
   },
 
   titleText: {
